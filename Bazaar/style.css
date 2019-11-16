@@ -18,8 +18,8 @@ body{
 }
 .carousel__button--prev, .carousel__button--next{
 	position: absolute;
-	top: 0;
-	bottom: 0;
+	top: 50%;
+	bottom: 15%;
 }
 .carousel__button--prev{
 	left: 0;
@@ -91,8 +91,17 @@ body{
     padding-right:15px;
 }
 
+#incoming{
+    background-image:url(./sultan.jpg);
+    background-position:center;
+    min-height: 500px;
+    width: 300px;
+    margin-bottom:30px;
+    text-align: center;
+}
+
 #showcase{
-    background-image:url(../images/Bazaar.jpg);
+    background-image:url(./Bazaar.jpg);
     background-position:center right;
     min-height: 300px;
     margin-bottom:30px;
